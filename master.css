@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+nav,
+ul,
+li,
+header,
+section,
+article,
+aside,
+footer,
+div,
+figure,
+figcaption {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 100%;
+    padding: 20px 7%;
+    background-color: #1e1c2a;
+    color: white;
+}
+
+/* Start Header  */
+
+header {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 7%;
+    background-color: #1e1c2a;
+}
+
+header>.textHeader {
+    width: 20%;
+    /* border: 1px solid red; */
+    align-content: center;
+}
+
+header>.textHeader>strong {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #ff702a;
+}
+
+header>nav {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    font-size: 12px;
+}
+
+header>nav>ul {
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header>nav>ul>li {
+    padding: 25px;
+    text-transform: capitalize;
+}
+
+header>nav>ul>li:hover {
+    color: #ff702a;
+}
+
+/* End Header  */
+
+/* Start HomeWebSite */
+
+.homewebSite {
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 85px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.homewebSite>.textHome,
+.homewebSite>.picHome {
+    width: 50%;
+    text-transform: capitalize;
+    /* border: 1px solid red; */
+}
+
+.homewebSite>.textHome>h1,
+.homewebSite>.textHome>h2 {
+    width: 100%;
+}
+
+.homewebSite>.textHome {
+    margin-top: 50px;
+    height: 220px;
+}
+
+.homewebSite>.textHome>h1 {
+    font-size: 60px;
+    color: #ff702a;
+}
+
+.homewebSite>.textHome>h2 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.homewebSite>.textHome>span {
+    background-color: #ff702a;
+    font-size: 11px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.homewebSite>.textHome>span:hover {
+    transform: scale(1.2);
+}
+
+.homewebSite>.picHome {
+    justify-content: center;
+}
+
+.homewebSite>.picHome>figure {
+    height: 390px;
+}
+
+.homewebSite>.picHome>figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End Home */
+
+/* Start TopWebsite */
+
+.topWebsite {
+    width: 100%;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.topWebsite>.picTop,
+.topWebsite>.textTop {
+    width: 49%;
+    /* border: 1px solid red; */
+}
+
+.topWebsite>.picTop {
+    height: 350px;
+}
+
+.topWebsite>.picTop>figure {
+    height: 100%;
+    padding: 20px;
+}
+
+.topWebsite>.picTop>figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+.topWebsite>.textTop {
+    padding: 80px 0;
+}
+
+.topWebsite>.textTop>h6,
+.topWebsite>.textTop>h2,
+.topWebsite>.textTop>p {
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.topWebsite>.textTop>p {
+    font-size: 10px;
+    margin: 10px;
+}
+
+.topWebsite>.textTop>span {
+    background-color: #ff702a;
+    font-size: 11px;
+    padding: 5px 18px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+.topWebsite>.textTop>span:hover {
+    transform: scale(1.2);
+}
+
+/* End TopWebsite */
+
+/* Start MenuTextFood  */
+
+.textmenuFood {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 50px 0;
+}
+
+.textmenuFood>strong,
+.textmenuFood>h2 {
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.textmenuFood>strong {
+    color: #ff702a;
+    font-size: 11px;
+}
+
+/* End MenuTextFood */
+
+/* Start MenuPicFood  */
+
+.picmenuFood {
+    width: 100%;
+    padding: 0 10%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.picmenuFood>figure {
+    width: 32%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+.picmenuFood>figure:hover {
+    background-color: #ff712a91;
+}
+
+.picmenuFood>figure>img {
+    width: 80%;
+}
+
+.picmenuFood>figure>h4,
+.picmenuFood>figure>p,
+.picmenuFood>figure>span {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.picmenuFood>figure>p,
+.picmenuFood>figure>span {
+    font-size: 12px;
+}
+
+.picmenuFood>figure>span {
+    color: #ff702a;
+}
+
+.picmenuFood>figure>p {
+    margin: 5px 0;
+}
+
+/* End MenuPicFood   */
+
+/* Start TextServices */
+
+.textServices {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+.textServices>h6 {
+    color: #ff702a;
+}
+
+.textServices>h2,
+.textServices>h6 {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* End TextServices */
+
+/* Start PicServices */
+
+.picServices {
+    width: 100%;
+    padding: 0 10%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.picServices>section:hover {
+    background-color: #ff712a91;
+    border-radius: 12px;
+}
+
+.picServices>section {
+    width: 32%;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    padding: 50px 15px;
+}
+
+.picServices>section>img {
+    width: 50px;
+    text-align: center;
+}
+
+.picServices>section>h6,
+.picServices>section>p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.picServices>section>h6 {
+    margin: 5px;
+    text-transform: capitalize;
+    color: #ff702a;
+}
+
+/* End PicServices */
+
+/* Start boxBottom */
+
+.boxBottom {
+    width: 100%;
+    padding: 0 10%;
+    /* border: 1px solid red; */
+    margin-bottom: 70px;
+}
+
+.boxBottom>section {
+    width: 100%;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px 0;
+    background-color: white;
+    color: black;
+}
+
+.boxBottom>section:hover {
+    background-color: #ff712a91;
+}
+
+.boxBottom>section>h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.boxBottom>section>span {
+    margin-top: 15px;
+    color: white;
+    /* background-color: red; */
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    font-size: 10px;
+    background-color: #ff702a;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.boxBottom>section>span:hover {
+    transform: scale(1.2);
+}
+
+/* End boxBottom */
+
+/* Start Footer  */
+
+footer {
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+footer>.box {
+    width: 24%;
+    text-transform: capitalize;
+    position: relative;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+footer>.box>nav {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+footer>.box>h6 {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+footer>.box::before {
+    content: '';
+    display: flex;
+    height: 2px;
+    width: 50px;
+    background-color: #ff702a;
+    position: absolute;
+    top: 17px;
+    left: 0;
+    border-radius: 12px;
+}
+
+footer>.box>nav>ul {
+    width: 100%;
+}
+
+footer>.box>nav>ul>li {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 5px 0;
+    font-size: 11px;
+    font-size: bold;
+    transition: .3s;
+    color: rgba(255, 255, 255, 0.336);
+}
+
+footer>.box>nav>ul>li:hover {
+    transform: translateX(-10px);
+    color: white;
+}
+
+footer>.box:nth-of-type(4)>nav>ul>li>i {
+    border-radius: 50%;
+    background-color: #ff702a;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 8px;
+}
+
+/* End Footer */
